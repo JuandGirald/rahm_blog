@@ -21,10 +21,7 @@ get_header(); ?>
 				<div class="small-12 columns">
 					<?php
 						global $post;
-						$category = get_the_category($post->ID); 
-						echo $category->cat_name;
-						echo $category->name;
-						echo $category->slug;
+						$category = get_the_category($post->ID);
 						print_r($category);
 					?>
 					<!-- <img src="/images/icon-graph.png" alt="Economic Development" /> -->
