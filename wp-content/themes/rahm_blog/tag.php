@@ -23,6 +23,7 @@ get_header(); ?>
 						global $post;
 						$tag = get_the_tags($post->ID);			
 						echo "<h2>" . $tag[0]->name . "</h2>";
+						print_r($tag);
 					?>
 				</div>
 			</div>
@@ -107,14 +108,7 @@ get_header(); ?>
 			<div class="row">
 				<div class="large-7 medium-8 columns postList">
 
-					<?php if ( have_posts() ) : ?>
-						<!-- <header class="archive-header">
-							<h1 class="archive-title"><?php printf( __( 'Tag Archives: %s', 'twentytwelve' ), '<span>' . single_tag_title( '', false ) . '</span>' ); ?></h1>
-
-						<?php if ( tag_description() ) : // Show an optional tag description ?>
-							<div class="archive-meta"><?php echo tag_description(); ?></div>
-						<?php endif; ?>
-						</header><!-- .archive-header --> -->
+					<?php if ( have_posts() ) : ?>					
 
 						<?php
 						/* Start the Loop */
@@ -134,7 +128,7 @@ get_header(); ?>
 					<?php else : ?>
 						<?php get_template_part( 'content', 'none' ); ?>
 					<?php endif; ?>
-					
+
 				</div>
 				<div class="medium-4 columns right rightRail">
 					<ul>
