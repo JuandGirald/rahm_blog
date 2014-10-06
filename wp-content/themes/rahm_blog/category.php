@@ -13,13 +13,21 @@
 
 get_header(); ?>
 
-	<section id="primary" class="site-content">
+	<section id="primary">
 		<div id="content" role="main">
+
+		<div class="heroContainer interior issues" style="background-image:url('/images/hero-issues.jpg')">
+			<div class="row">
+				<div class="small-12 columns">
+					<img src="/images/icon-graph.png" alt="Economic Development" />
+					<h2>economic Development</h2>
+					<p><? php get_the_category() -> cat_name ?></p>
+				</div>
+			</div>
+		</div>
 
 		<?php if ( have_posts() ) : ?>
 			<header class="archive-header">
-				<h1 class="archive-title"><?php printf( __( 'Category Archives: %s', 'twentytwelve' ), '<span>' . single_cat_title( '', false ) . '</span>' ); ?></h1>
-
 			<?php if ( category_description() ) : // Show an optional category description ?>
 				<div class="archive-meta"><?php echo category_description(); ?></div>
 			<?php endif; ?>
@@ -47,5 +55,4 @@ get_header(); ?>
 		</div><!-- #content -->
 	</section><!-- #primary -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
