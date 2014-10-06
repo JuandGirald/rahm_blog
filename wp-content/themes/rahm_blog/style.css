@@ -8139,6 +8139,11 @@ footer {
     padding-bottom: 50px;
     font: normal 400 30px/32px "museo-slab", san-serif;
     color: #0195ff; }
+   .contentContainer .headline h3 p {
+   	font-size: 1em;
+   	line-height: 1;
+   	margin: 0;
+   }
 
 /* New */
 .heroContainer {
