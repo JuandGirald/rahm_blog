@@ -945,11 +945,11 @@ img.aligncenter {
 	padding: 6px 10px 6px 0;
 }
 .site-content article {
-	border-bottom: 4px double #ededed;
+	/*border-bottom: 4px double #ededed;
 	margin-bottom: 72px;
 	margin-bottom: 5.142857143rem;
 	padding-bottom: 24px;
-	padding-bottom: 1.714285714rem;
+	padding-bottom: 1.714285714rem;*/
 	word-wrap: break-word;
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
@@ -8112,6 +8112,9 @@ footer {
     background: rgba(1, 149, 255, 0.7);
     position: absolute;
     bottom: 0; }
+  .contentContainer .postBlurb {
+  	margin-bottom: 1.42857rem;
+  }
   .contentContainer .postBlurb img {
     display: block;
   }
@@ -8123,11 +8126,15 @@ footer {
     font: italic 700 20px/30px "museo-slab", san-serif !important;
     color: #ff4a4a;
     font-size: 125%; }
+  .contentContainer .postBlurb .tagBox {
+  	margin: 0;
+  }
   .contentContainer .postBlurb .tagBox li {
     display: inline-block;
     font: normal 400 12px/30px "museo-slab", san-serif !important; }
     .contentContainer .postBlurb .tagBox li a {
-      color: #4380b9; }
+      color: #4380b9;
+      text-transform: uppercase; }
   .contentContainer .postBlurb .tagBox li:after {
     content: "|";
     padding: 0 .5em; }
@@ -8146,6 +8153,9 @@ footer {
    }
 
 /* New */
+#main header {
+	z-index: 1;
+}
 .heroContainer {
   overflow: hidden;
 }

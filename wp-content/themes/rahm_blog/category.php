@@ -22,8 +22,9 @@ get_header(); ?>
 						<?php
 							global $post;
 							$category = get_the_category($post->ID);
-							echo '<h2>ey ' . $category['name'] . "</h2>";
-							print '<h2>ey ' . $category[name] . "</h2>";
+							echo '<h6>ey ' . $category['name'] . "</h6>";
+							echo '<h6>ey ' . $category->'name' . "</h6>";
+							print '<h6>ey ' . $category[name] . "</h6>";
 						?>
 						<!-- <img src="/images/icon-graph.png" alt="Economic Development" /> -->
 						<!-- <h2>economic Development</h2> -->
@@ -38,7 +39,6 @@ get_header(); ?>
 					<div class="small-12 columns">
 						<?php if ( category_description() ) : // Show an optional category description ?>
 							<h3><?php echo category_description(); ?></h3>
-							<h3><?php remove_filter('category_description()','wpautop'); ?></h3>
 						<?php endif; ?>
 					</div>
 				</div>
