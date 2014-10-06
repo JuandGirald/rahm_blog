@@ -23,6 +23,8 @@ get_header(); ?>
 						global $post;
 						$category = get_the_category($post->ID);
 						print_r($category);
+						echo $category['slug'];
+						echo $category[slug];
 					?>
 					<!-- <img src="/images/icon-graph.png" alt="Economic Development" /> -->
 					<!-- <h2>economic Development</h2> -->
