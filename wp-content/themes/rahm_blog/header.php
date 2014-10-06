@@ -45,7 +45,7 @@
 
 <div id="page" class="hfeed">
 
-	<header id="masthead" class="site-header" role="banner">
+	<header id="masthead" role="banner">
 		<div class="row">
 			<div class="large-12 column">
 				<div class="row">
