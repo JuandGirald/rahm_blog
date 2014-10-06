@@ -10,7 +10,6 @@
 
 	<article class="postBlurb" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-		<?php the_post_thumbnail(); ?>
 		<?php if ( is_single() ) : ?>
 			<h3><?php the_title(); ?></h3>
 		<?php else : ?>
@@ -22,12 +21,14 @@
 
 		<?php if ( is_single() ) : // Only display full copy for Single page ?>
 			<div class="entry-content">
+				<?php the_post_thumbnail(); ?>
 				<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentytwelve' ) ); ?>
 				<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'twentytwelve' ), 'after' => '</div>' ) ); ?>
 			</div><!-- .entry-content -->
 		<?php else : ?>			
 			<div class="entry-summary">
 				<?php the_excerpt(); ?>
+				<?php the_post_thumbnail(); ?>
 				<a class="readMore" href="<?php echo get_permalink(); ?>">Read more &#62;</a>
 				<?php the_tags('<ul class="tagBox"><li>','</li><li>','</li></ul>'); ?>
 			</div><!-- .entry-summary -->
