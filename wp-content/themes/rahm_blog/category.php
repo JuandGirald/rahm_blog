@@ -21,9 +21,14 @@ get_header(); ?>
 					<div class="small-12 columns">
 						<?php
 							global $post;
-							$category = get_the_category($post->ID);
-							echo "<img src='" . get_bloginfo('template_directory') . "/assets/icon-" . $category[0]->slug . ".png' alt='" . $category[0]->cat_name . "' />";
-							echo "<h2>" . $category[0]->cat_name . "</h2>";
+							$categories = get_the_category($post->ID);
+							if ($categories) {
+								foreach($categories as $category) {
+									echo "<img src='" . get_bloginfo('template_directory') . "/assets/icon-" . $category->slug . ".png' alt='" . $category->cat_name . "' />";
+									echo "<h2>" . $category->cat_name . "</h2>";
+									break;
+								}
+							}
 						?>
 					</div>
 				</div>
