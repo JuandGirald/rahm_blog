@@ -28,33 +28,182 @@ get_header(); ?>
 			</div>
 		</div>
 
-		<?php if ( have_posts() ) : ?>
-			<!-- <header class="archive-header">
-				<h1 class="archive-title"><?php printf( __( 'Tag Archives: %s', 'twentytwelve' ), '<span>' . single_tag_title( '', false ) . '</span>' ); ?></h1>
+		<nav class="mainNav">
+				<div class="central">
+					<div class="row">
+						<div class="small-12 columns">
+							<ul class="mainList">
+								<li data-id="1">
+									<a>TAKE ACTION</a>
+								</li>
+								<li data-id="2">
+									<a>FACTS</a>
+								</li>
+								<li data-id="3">
+									<a>LATEST</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 
-			<?php if ( tag_description() ) : // Show an optional tag description ?>
-				<div class="archive-meta"><?php echo tag_description(); ?></div>
-			<?php endif; ?>
-			</header><!-- .archive-header --> -->
+				<div class="dropdown">
+					<div class="row">
+						<div class="small-12 columns">
+							<ul data-target="1">
+								<li>
+									<a>Share Your Story</a>
+								</li>
+								<li>
+									<a>See Programs In Your Neighborhood</a>
+								</li>
+								<li>
+									<a>Sign Up</a>
+								</li>
+								<li>
+									<a>Donate</a>
+								</li>
+							</ul>
+							<ul data-target="2">
+								<li>
+									<a>About</a>
+								</li>
+								<li>
+									<a>Contact</a>
+								</li>
+								<li>
+									<a>Parks</a>
+								</li>
+								<li>
+									<a>infrastructure</a>
+								</li>
+								<li>
+									<a>Economic Development</a>
+								</li>
+								<li>
+									<a>Education</a>
+								</li>
+							</ul>
+							<ul data-target="3">
+								<li>
+									<a>Blog</a>
+								</li>
+								<li>
+									<a>Twitter</a>
+								</li>
+								<li>
+									<a>Facebook</a>
+								</li>
+								<li>
+									<a>Youtube</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+		</nav>
 
-			<?php
-			/* Start the Loop */
-			while ( have_posts() ) : the_post();
+		<div class="contentContainer">
+			<div class="row">
+				<div class="large-7 medium-8 columns postList">
 
-				/* Include the post format-specific template for the content. If you want to
-				 * this in a child theme then include a file called called content-___.php
-				 * (where ___ is the post format) and that will be used instead.
-				 */
-				get_template_part( 'content', get_post_format() );
+					<?php if ( have_posts() ) : ?>
+						<!-- <header class="archive-header">
+							<h1 class="archive-title"><?php printf( __( 'Tag Archives: %s', 'twentytwelve' ), '<span>' . single_tag_title( '', false ) . '</span>' ); ?></h1>
 
-			endwhile;
+						<?php if ( tag_description() ) : // Show an optional tag description ?>
+							<div class="archive-meta"><?php echo tag_description(); ?></div>
+						<?php endif; ?>
+						</header><!-- .archive-header --> -->
 
-			twentytwelve_content_nav( 'nav-below' );
-			?>
+						<?php
+						/* Start the Loop */
+						while ( have_posts() ) : the_post();
 
-		<?php else : ?>
-			<?php get_template_part( 'content', 'none' ); ?>
-		<?php endif; ?>
+							/* Include the post format-specific template for the content. If you want to
+							 * this in a child theme then include a file called called content-___.php
+							 * (where ___ is the post format) and that will be used instead.
+							 */
+							get_template_part( 'content', get_post_format() );
+
+						endwhile;
+
+						twentytwelve_content_nav( 'nav-below' );
+						?>
+
+					<?php else : ?>
+						<?php get_template_part( 'content', 'none' ); ?>
+					<?php endif; ?>
+					
+				</div>
+				<div class="medium-4 columns right rightRail">
+					<ul>
+						<li>
+							<a href="#" class="beFirst">
+								<p class="icon">
+									<span class="picto news">m</span>
+								</p>
+								<p class="txt">
+									<span>SIGN UP, BE THE <br/>FIRST TO KNOW</span>
+								</p>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<p class="icon">
+									<span class="picto face">G</span>
+								</p>
+								<p class="txt">
+									<span>LIKE US</span>
+								</p>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<p class="icon">
+									<span class="socialico tweet">L</span>
+								</p>
+								<p class="txt">
+									<span>FOLLOW US</span>
+								</p>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="seeProgress">
+								<p class="icon">
+									<span class="picto magnify">y</span>
+								</p>
+								<p class="txt">
+									<span>SEE PROGRESS IN <br/>YOUR NEIGHBORHOOD</span>
+								</p>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<p class="icon">
+									<span class="picto share">b</span>
+								</p>
+								<p class="txt">
+									<span>SHARE YOUR STORY</span>
+								</p>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="donateMod">
+								<p class="icon">
+									<span class="picto donate">$</span>
+								</p>
+								<p class="txt">
+									<span>DONATE</span>
+								</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		
 
 		</div><!-- #content -->
 	</section><!-- #primary -->
