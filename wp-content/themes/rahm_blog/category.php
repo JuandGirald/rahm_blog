@@ -22,14 +22,9 @@ get_header(); ?>
 						<?php
 							global $post;
 							$category = get_the_category($post->ID);
-							echo '<h6>ey ' . $category['name'] . "</h6>";
-							echo '<h6>ey ' . $category[0]->name . "</h6>";
-							print '<h6>ey ' . $category[name] . "</h6>";
+							echo "<img src='" . bloginfo('template_directory') . "/assets/" . $category[0]->slug . ".png' alt='" . $category[0]->cat_name . "' />";
+							echo "<h2>" . $category[0]->cat_name . "</h2>";
 						?>
-						<!-- <img src="/images/icon-graph.png" alt="Economic Development" /> -->
-						<!-- <h2>economic Development</h2> -->
-						<p><?php echo $category->cat_name; ?></p>
-						<p><?php print_r($category) ?></p>
 					</div>
 				</div>
 			</div>
