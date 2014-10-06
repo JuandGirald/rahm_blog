@@ -43,7 +43,7 @@
 
 <body <?php body_class(); ?>>
 
-<div id="page" class="hfeed site">
+<div id="page" class="hfeed">
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="row">
@@ -52,7 +52,7 @@
 					<div class="medium-6 large-4 column">
 						<h1 class="titleBar">
 							<a href="/">
-								<img alt="Rahm for Chicago" src="assets/logo-title.jpg"/>
+								<img alt="Rahm for Chicago" src="<?php bloginfo('template_directory'); ?>/rahm_blog/assets/logo-title.jpg"/>
 							</a>
 						</h1>
 					</div>

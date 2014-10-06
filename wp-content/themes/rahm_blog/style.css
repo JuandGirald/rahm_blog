@@ -7840,10 +7840,10 @@ th.hide-for-touch {
 /* OLD */
 @font-face {
   font-family: picto;
-  src: url(../assets/modernpics.otf); }
+  src: url(fonts/modernpics.otf); }
 @font-face {
   font-family: socialico;
-  src: url(../assets/Socialico.otf); }
+  src: url(fonts/Socialico.otf); }
 .museo {
   font-family: "museo-slab",serif;
   font-style: normal;

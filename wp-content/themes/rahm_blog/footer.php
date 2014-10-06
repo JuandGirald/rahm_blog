@@ -16,7 +16,7 @@
 		<div class="row">
 			<div class="small-4 medium-3 columns logo">
 				<div>
-					<img src="assets/logo-footer.png"/>
+					<img src="<?php bloginfo('template_directory'); ?>/rahm_blog/assets/logo-footer.png"/>
 				</div>
 			</div>
 				<div class="small-4 medium-3 columns">
