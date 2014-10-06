@@ -19,7 +19,7 @@ get_header(); ?>
 							global $post;
 							$category = get_the_category($post->ID);
 							echo '<h6>ey ' . $category['name'] . "</h6>";
-							echo '<h6>ey ' . $category->'name' . "</h6>";
+							echo '<h6>ey ' . $category->name . "</h6>";
 							print '<h6>ey ' . $category[name] . "</h6>";
 						?>
 						<!-- <img src="/images/icon-graph.png" alt="Economic Development" /> -->
