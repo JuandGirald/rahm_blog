@@ -21,7 +21,7 @@ get_header(); ?>
 				<div class="small-12 columns">
 					<img src="/images/icon-graph.png" alt="Economic Development" />
 					<h2>economic Development</h2>
-					<p><? php get_the_category() -> cat_name ?></p>
+					<p><?php get_the_category() -> cat_name ?></p>
 				</div>
 			</div>
 		</div>
