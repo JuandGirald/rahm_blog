@@ -25,6 +25,7 @@ get_header(); ?>
 						echo $category->cat_name;
 						echo $category->name;
 						echo $category->slug;
+						print_r($category);
 					?>
 					<!-- <img src="/images/icon-graph.png" alt="Economic Development" /> -->
 					<!-- <h2>economic Development</h2> -->
