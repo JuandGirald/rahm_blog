@@ -9,7 +9,7 @@
 
 get_header(); ?>
 
-	<div id="primary" class="site-content">
+	<div id="primary">
 		<div id="content" role="main">
 
 			<div class="heroContainer interior issues" style="background-image:url('<?php bloginfo('template_directory'); ?>/assets/hero-issues.jpg')">
@@ -29,6 +29,81 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
+
+			<nav class="mainNav">
+				<div class="central">
+					<div class="row">
+						<div class="small-12 columns">
+							<ul class="mainList">
+								<li data-id="1">
+									<a>TAKE ACTION</a>
+								</li>
+								<li data-id="2">
+									<a>FACTS</a>
+								</li>
+								<li data-id="3">
+									<a>LATEST</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="dropdown">
+					<div class="row">
+						<div class="small-12 columns">
+							<ul data-target="1">
+								<li>
+									<a>Share Your Story</a>
+								</li>
+								<li>
+									<a>See Programs In Your Neighborhood</a>
+								</li>
+								<li>
+									<a>Sign Up</a>
+								</li>
+								<li>
+									<a>Donate</a>
+								</li>
+							</ul>
+							<ul data-target="2">
+								<li>
+									<a>About</a>
+								</li>
+								<li>
+									<a>Contact</a>
+								</li>
+								<li>
+									<a>Parks</a>
+								</li>
+								<li>
+									<a>infrastructure</a>
+								</li>
+								<li>
+									<a>Economic Development</a>
+								</li>
+								<li>
+									<a>Education</a>
+								</li>
+							</ul>
+							<ul data-target="3">
+								<li>
+									<a>Blog</a>
+								</li>
+								<li>
+									<a>Twitter</a>
+								</li>
+								<li>
+									<a>Facebook</a>
+								</li>
+								<li>
+									<a>Youtube</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
 
 			<div class="contentContainer">
 				<div class="row">
