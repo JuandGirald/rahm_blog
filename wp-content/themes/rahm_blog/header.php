@@ -34,7 +34,7 @@
 	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 	<script type="text/javascript" src="https://www.youtube.com/iframe_api"></script>
 
-	<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/rahm_blog/js/modernizr.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/modernizr.js"></script>
 	<script src="//use.typekit.net/vvt4yoq.js"></script>
 	<script>
 		try{Typekit.load();}catch(e){}
@@ -52,7 +52,7 @@
 					<div class="medium-6 large-4 column">
 						<h1 class="titleBar">
 							<a href="/">
-								<img alt="Rahm for Chicago" src="<?php bloginfo('template_directory'); ?>/rahm_blog/assets/logo-title.jpg"/>
+								<img alt="Rahm for Chicago" src="<?php bloginfo('template_directory'); ?>/assets/logo-title.jpg"/>
 							</a>
 						</h1>
 					</div>

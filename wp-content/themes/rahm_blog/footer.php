@@ -16,7 +16,7 @@
 		<div class="row">
 			<div class="small-4 medium-3 columns logo">
 				<div>
-					<img src="<?php bloginfo('template_directory'); ?>/rahm_blog/assets/logo-footer.png"/>
+					<img src="<?php bloginfo('template_directory'); ?>/assets/logo-footer.png"/>
 				</div>
 			</div>
 				<div class="small-4 medium-3 columns">
@@ -93,7 +93,7 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <!-- <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn-history/r358/trunk/infobox/src/infobox.js"></script> -->
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/rahm_blog/js/application.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/application.js"></script>
 <script type="text/javascript">
 	$(document).foundation();
 </script>
