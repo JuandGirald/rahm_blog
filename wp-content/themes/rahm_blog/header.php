@@ -29,6 +29,16 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
+
+	<!-- Youtube api -->
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script type="text/javascript" src="https://www.youtube.com/iframe_api"></script>
+
+	<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/rahm_blog/js/modernizr.js"></script>
+	<script src="//use.typekit.net/vvt4yoq.js"></script>
+	<script>
+		try{Typekit.load();}catch(e){}
+	</script>
 </head>
 
 <body <?php body_class(); ?>>
@@ -36,7 +46,36 @@
 <div id="page" class="hfeed site">
 
 	<header id="masthead" class="site-header" role="banner">
-		
+		<div class="row">
+			<div class="large-12 column">
+				<div class="row">
+					<div class="medium-6 large-4 column">
+						<h1 class="titleBar">
+							<a href="/">
+								<img alt="Rahm for Chicago" src="assets/logo-title.jpg"/>
+							</a>
+						</h1>
+					</div>
+					<div class="medium-6 large-6 column">
+						<form>
+							<input type="text" placeholder="Email" name="signUpEmail" class="signUpEmail-header"/>
+							<input type="text" placeholder="Zip code" name="signUpZip" class="signUpZip-header"/>
+							<button>Sign up</button>
+						</form>
+						<div class="socialLinks">
+							<a class="headerSocial">
+								<span class="social">F</span>
+								<span>LIKE US</span>
+							</a>
+							<a class="headerSocial fb">
+								<span class="social">L</span>
+								<span>FOLLOW US</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</header><!-- #masthead -->
 
 	<div id="main" class="wrapper">
