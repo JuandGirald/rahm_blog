@@ -13,17 +13,29 @@
 
 get_header(); ?>
 
-	<section id="primary" class="site-content">
+	<section id="primary">
 		<div id="content" role="main">
 
+		<div class="heroContainer interior issues" style="background-image:url('<?php bloginfo('template_directory'); ?>/assets/hero-issues.jpg')">
+			<div class="row">
+				<div class="small-12 columns">
+					<?php
+						global $post;
+						$tag = get_the_tags($post->ID);			
+						echo "<h2>" . $tag[0]->name . "</h2>";
+					?>
+				</div>
+			</div>
+		</div>
+
 		<?php if ( have_posts() ) : ?>
-			<header class="archive-header">
+			<!-- <header class="archive-header">
 				<h1 class="archive-title"><?php printf( __( 'Tag Archives: %s', 'twentytwelve' ), '<span>' . single_tag_title( '', false ) . '</span>' ); ?></h1>
 
 			<?php if ( tag_description() ) : // Show an optional tag description ?>
 				<div class="archive-meta"><?php echo tag_description(); ?></div>
 			<?php endif; ?>
-			</header><!-- .archive-header -->
+			</header><!-- .archive-header --> -->
 
 			<?php
 			/* Start the Loop */
@@ -47,5 +59,4 @@ get_header(); ?>
 		</div><!-- #content -->
 	</section><!-- #primary -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
