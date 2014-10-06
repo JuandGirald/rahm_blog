@@ -19,9 +19,14 @@ get_header(); ?>
 		<div class="heroContainer interior issues" style="background-image:url('<?php bloginfo('template_directory'); ?>/assets/hero-issues.jpg')">
 			<div class="row">
 				<div class="small-12 columns">
-					<img src="/images/icon-graph.png" alt="Economic Development" />
-					<h2>economic Development</h2>
-					<p><?php echo get_the_category() ?></p>
+					<?php
+						$category = get_the_category(); 
+						echo $category->cat_name;
+					?>
+					<!-- <img src="/images/icon-graph.png" alt="Economic Development" /> -->
+					<!-- <h2>economic Development</h2> -->
+					<p><?php $category->cat_name; ?></p>
+					<p><?php $category->slug; ?></p>
 				</div>
 			</div>
 		</div>
