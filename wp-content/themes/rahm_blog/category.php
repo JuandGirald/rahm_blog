@@ -38,7 +38,79 @@ get_header(); ?>
 				<div class="small-12 columns">
 					<?php if ( category_description() ) : // Show an optional category description ?>
 						<h3><?php echo category_description(); ?></h3>
+						<h3><?php remove_filter('category_description()','wpautop'); ?></h3>
 					<?php endif; ?>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="large-7 medium-8 columns postList">
+
+				</div>
+
+				<div class="medium-4 columns right rightRail">
+					<ul>
+						<li>
+							<a href="#" class="beFirst">
+								<p class="icon">
+									<span class="picto news">m</span>
+								</p>
+								<p class="txt">
+									<span>SIGN UP, BE THE <br/>FIRST TO KNOW</span>
+								</p>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<p class="icon">
+									<span class="picto face">G</span>
+								</p>
+								<p class="txt">
+									<span>LIKE US</span>
+								</p>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<p class="icon">
+									<span class="socialico tweet">L</span>
+								</p>
+								<p class="txt">
+									<span>FOLLOW US</span>
+								</p>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="seeProgress">
+								<p class="icon">
+									<span class="picto magnify">y</span>
+								</p>
+								<p class="txt">
+									<span>SEE PROGRESS IN <br/>YOUR NEIGHBORHOOD</span>
+								</p>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<p class="icon">
+									<span class="picto share">b</span>
+								</p>
+								<p class="txt">
+									<span>SHARE YOUR STORY</span>
+								</p>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="donateMod">
+								<p class="icon">
+									<span class="picto donate">$</span>
+								</p>
+								<p class="txt">
+									<span>DONATE</span>
+								</p>
+							</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
