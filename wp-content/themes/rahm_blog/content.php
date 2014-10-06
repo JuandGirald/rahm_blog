@@ -8,7 +8,7 @@
  */
 ?>
 
-	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<article class="postBlurb" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 		<?php the_post_thumbnail(); ?>
 		<?php if ( is_single() ) : ?>
