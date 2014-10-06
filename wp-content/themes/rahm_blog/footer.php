@@ -90,6 +90,7 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <!-- <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn-history/r358/trunk/infobox/src/infobox.js"></script> -->
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/rahm_blog/js/application.js"></script>
