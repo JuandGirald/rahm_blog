@@ -30,13 +30,13 @@
 				<?php the_excerpt(); ?>
 				<?php the_post_thumbnail(); ?>
 				<a class="readMore" href="<?php echo get_permalink(); ?>">Read more &#62;</a>
-				<?php the_tags('<ul class="tagBox"><li>','</li><li>','</li></ul>'); ?>
 			</div><!-- .entry-summary -->
 		<?php endif; ?>
 
 
 
 		<div class="entry-meta">
+			<?php the_tags('<ul class="tagBox"><li>','</li><li>','</li></ul>'); ?>
 			<?php edit_post_link( __( 'Edit', 'twentytwelve' ), '<span class="edit-link">', '</span>' ); ?>
 		</div><!-- .entry-meta -->
 
