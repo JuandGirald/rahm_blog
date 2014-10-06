@@ -72,7 +72,7 @@ get_header(); ?>
 									<a>Parks</a>
 								</li>
 								<li>
-									<a>infrastructure</a>
+									<a>Infrastructure</a>
 								</li>
 								<li>
 									<a>Economic Development</a>
