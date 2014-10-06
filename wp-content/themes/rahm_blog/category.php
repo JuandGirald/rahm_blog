@@ -27,8 +27,8 @@ get_header(); ?>
 						?>
 						<!-- <img src="/images/icon-graph.png" alt="Economic Development" /> -->
 						<!-- <h2>economic Development</h2> -->
-						<p><?php $category->cat_name; ?></p>
-						<p><?php pritn_r($category) ?></p>
+						<p><?php echo $category->cat_name; ?></p>
+						<p><?php print_r($category) ?></p>
 					</div>
 				</div>
 			</div>
