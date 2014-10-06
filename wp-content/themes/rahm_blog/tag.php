@@ -21,9 +21,13 @@ get_header(); ?>
 				<div class="small-12 columns">
 					<?php
 						global $post;
-						$tag = get_the_tags($post->ID);			
-						echo "<h2>" . $tag[0]->name . "</h2>";
-						print_r($tag);
+						$tags = get_the_tags($post->ID);
+						if ($tags) {
+							foreach($tags as $tag) {
+								echo "<h2>" . $tag->name . "</h2>";
+								break;
+							}
+						}
 					?>
 				</div>
 			</div>
