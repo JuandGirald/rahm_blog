@@ -33,6 +33,16 @@ get_header(); ?>
 			</div>
 		</div>
 
+		<div class="contentContainer">
+			<div class="row headline">
+				<div class="small-12 columns">
+					<?php if ( category_description() ) : // Show an optional category description ?>
+						<h3><?php echo category_description(); ?></h3>
+					<?php endif; ?>
+				</div>
+			</div>
+		</div>
+
 		<?php if ( have_posts() ) : ?>
 			<header class="archive-header">
 			<?php if ( category_description() ) : // Show an optional category description ?>
