@@ -12,7 +12,7 @@
 ?>
 	</div><!-- #main .wrapper -->
 
-	<footer id="colophon" role="contentinfo">
+	<footer id="colophon">
 		<div class="row">
 			<div class="small-4 medium-3 columns logo">
 				<div>
