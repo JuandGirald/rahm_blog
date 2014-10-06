@@ -16,12 +16,12 @@ get_header(); ?>
 	<section id="primary">
 		<div id="content" role="main">
 
-		<div class="heroContainer interior issues" style="background-image:url('/images/hero-issues.jpg')">
+		<div class="heroContainer interior issues" style="background-image:url('<?php bloginfo('template_directory'); ?>/assets/hero-issues.jpg')">
 			<div class="row">
 				<div class="small-12 columns">
 					<img src="/images/icon-graph.png" alt="Economic Development" />
 					<h2>economic Development</h2>
-					<p><?php get_the_category() -> cat_name ?></p>
+					<p><?php get_the_category() ?></p>
 				</div>
 			</div>
 		</div>
