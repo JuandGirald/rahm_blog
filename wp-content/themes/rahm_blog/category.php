@@ -22,7 +22,7 @@ get_header(); ?>
 						<?php
 							global $post;
 							$category = get_the_category($post->ID);
-							echo "<img src='" . bloginfo('template_directory') . "/assets/" . $category[0]->slug . ".png' alt='" . $category[0]->cat_name . "' />";
+							echo "<img src='" . get_bloginfo('template_directory') . "/assets/" . $category[0]->slug . ".png' alt='" . $category[0]->cat_name . "' />";
 							echo "<h2>" . $category[0]->cat_name . "</h2>";
 						?>
 					</div>
