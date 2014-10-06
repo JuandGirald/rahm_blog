@@ -8117,6 +8117,7 @@ footer {
   }
   .contentContainer .postBlurb img {
     display: block;
+    margin: 0 0 1.714285714rem;
   }
   .contentContainer .postBlurb h2, .contentContainer .postBlurb h3 {
     color: #0195ff; }
