@@ -21,6 +21,7 @@ get_header(); ?>
 				<div class="small-12 columns">
 					<?php
 						global $post;
+						print $post;
 						$category = get_the_category($post->ID); 
 						print $category->cat_name;
 					?>
