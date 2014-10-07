@@ -448,3 +448,20 @@ function twentytwelve_customize_preview_js() {
 	wp_enqueue_script( 'twentytwelve-customizer', get_template_directory_uri() . '/js/theme-customizer.js', array( 'customize-preview' ), '20120827', true );
 }
 add_action( 'customize_preview_init', 'twentytwelve_customize_preview_js' );
+
+function convert_root_cats_to_radio()
+{
+    global $post_type; 
+    ?> 
+<script type="text/javascript"> 
+jQuery("#activitycategorychecklist>li>label input").each(function(){ 
+    this.disabled = "disabled"; 
+}); 
+jQuery("#activitycategorychecklist>li>ul>li>label input").each(function(){ 
+    this.type = 'radio'; 
+}); 
+jQuery("#activitycategory-tabs li:odd").hide(); 
+</script> <?php
+} 
+add_action( 'admin_footer-post.php',     'convert_root_cats_to_radio' ); 
+add_action( 'admin_footer-post-new.php', 'convert_root_cats_to_radio' );
