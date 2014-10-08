@@ -25,7 +25,6 @@ get_header(); ?>
 							$thecategory = get_category_by_slug(end($arr_current_url));
 							// echo "The CAT ID: ".$thecategory->term_id;
 							echo $arr_current_url;
-							echo end($arr_current_url);
 							echo $thecategory;
 
 
