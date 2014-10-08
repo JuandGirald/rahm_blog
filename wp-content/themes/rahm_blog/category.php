@@ -20,6 +20,15 @@ get_header(); ?>
 				<div class="row">
 					<div class="small-12 columns">
 						<?php
+							$current_url = rtrim($_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"], "/");
+							$arr_current_url = split("/", $current_url);
+							$thecategory = get_category_by_slug(end($arr_current_url));
+							// echo "The CAT ID: ".$thecategory->term_id;
+							echo $arr_current_url;
+							echo end($arr_current_url);
+							echo $thecategory;
+
+
 							global $post;
 							$categories = get_the_category($post->ID);
 							if ($categories) {
