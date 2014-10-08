@@ -22,21 +22,21 @@ get_header(); ?>
 						<?php
 							$current_url = rtrim($_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"], "/");
 							$arr_current_url = split("/", $current_url);
-							$thecategory = get_category_by_slug(end($arr_current_url));
+							$category = get_category_by_slug(end($arr_current_url));
 							// echo "The CAT ID: ".$thecategory->term_id;
-							print_r($arr_current_url);
-							echo $thecategory;
+							// print_r($arr_current_url);
+							// echo $thecategory->slug;
 
 
-							global $post;
-							$categories = get_the_category($post->ID);
-							if ($categories) {
-								foreach($categories as $category) {
+							// global $post;
+							// $categories = get_the_category($post->ID);
+							// if ($categories) {
+								//foreach($categories as $category) {
 									echo "<img src='" . get_bloginfo('template_directory') . "/assets/icon-" . $category->slug . ".png' alt='" . $category->cat_name . "' />";
 									echo "<h2>" . $category->cat_name . "</h2>";
-									break;
-								}
-							}
+									//break;
+								//}
+							//}
 						?>
 					</div>
 				</div>
