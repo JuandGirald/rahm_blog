@@ -16,6 +16,8 @@
 
 get_header(); ?>
 
+	<?php wp_redirect( 'http://rahmforchicago.herokuapp.com/blog/rahms-blog/', 301 ); exit; ?>
+
 	<div id="primary">
 		<div id="content" role="main">
 
