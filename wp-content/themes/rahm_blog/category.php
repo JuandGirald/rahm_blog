@@ -22,14 +22,11 @@ get_header(); ?>
 						<?php
 							$current_url = rtrim($_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"], "/");
 							$arr_current_url = split("/", $current_url);
-							print_r($arr_current_url[1]);
 							if ($arr_current_url[1] == 'category') {
 								$category = get_category_by_slug($arr_current_url[2]);
 							} else {
 								$category = get_category_by_slug($arr_current_url[1]);	
 							}
-							//echo $category;
-							//$category = get_category_by_slug($arr_current_url[1]);
 							echo "<img src='" . get_bloginfo('template_directory') . "/assets/icon-" . $category->slug . ".png' alt='" . $category->cat_name . "' />";
 							echo "<h2>" . $category->cat_name . "</h2>";
 						?>
