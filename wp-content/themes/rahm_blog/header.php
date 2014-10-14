@@ -8,9 +8,7 @@
  * @subpackage Twenty_Twelve
  * @since Twenty Twelve 1.0
  */
-header("Access-Control-Allow-Origin: *");
-?>
-<!DOCTYPE html>
+?><!DOCTYPE html>
 <!--[if IE 7]>
 <html class="ie ie7" <?php language_attributes(); ?>>
 <![endif]-->
