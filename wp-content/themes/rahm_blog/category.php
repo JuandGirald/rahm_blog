@@ -28,7 +28,7 @@ get_header(); ?>
 							} else {
 								$category = get_category_by_slug($arr_current_url[1]);	
 							}
-							echo $category;
+							//echo $category;
 							//$category = get_category_by_slug($arr_current_url[1]);
 							echo "<img src='" . get_bloginfo('template_directory') . "/assets/icon-" . $category->slug . ".png' alt='" . $category->cat_name . "' />";
 							echo "<h2>" . $category->cat_name . "</h2>";
