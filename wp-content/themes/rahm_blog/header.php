@@ -52,7 +52,7 @@
 					<div class="medium-6 large-4 column">
 						<h1 class="titleBar">
 							<a href="/">
-								<img alt="Rahm for Chicago" src="<?php bloginfo('template_directory'); ?>/assets/logo-title.jpg"/>
+								<img alt="Rahm for Chicago" src="<?php bloginfo('template_directory'); ?>/assets/logo-title.png"/>
 							</a>
 						</h1>
 					</div>
