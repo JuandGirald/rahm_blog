@@ -115,13 +115,12 @@ get_header(); ?>
 
 						<?php endwhile; // end of the loop. ?>
 					</div>
+
 					<div class="medium-4 columns right rightRail">
 						<ul>
 							<li>
-								<a href="#" class="beFirst">
-									<p class="icon">
-										<span class="picto news">m</span>
-									</p>
+								<a href="#">
+									<p class="icon news"></p>
 									<p class="txt">
 										<span>SIGN UP, BE THE <br/>FIRST TO KNOW</span>
 									</p>
@@ -129,9 +128,7 @@ get_header(); ?>
 							</li>
 							<li>
 								<a href="#">
-									<p class="icon">
-										<span class="picto face">G</span>
-									</p>
+									<p class="icon face"></p>
 									<p class="txt">
 										<span>LIKE US</span>
 									</p>
@@ -139,9 +136,7 @@ get_header(); ?>
 							</li>
 							<li>
 								<a href="#">
-									<p class="icon">
-										<span class="socialico tweet">L</span>
-									</p>
+									<p class="icon tweet"></p>
 									<p class="txt">
 										<span>FOLLOW US</span>
 									</p>
@@ -149,9 +144,7 @@ get_header(); ?>
 							</li>
 							<li>
 								<a href="#" class="seeProgress">
-									<p class="icon">
-										<span class="picto magnify">y</span>
-									</p>
+									<p class="icon magnify"></p>
 									<p class="txt">
 										<span>SEE PROGRESS IN <br/>YOUR NEIGHBORHOOD</span>
 									</p>
@@ -159,19 +152,15 @@ get_header(); ?>
 							</li>
 							<li>
 								<a href="#">
-									<p class="icon">
-										<span class="picto share">b</span>
-									</p>
+									<p class="icon share"></p>
 									<p class="txt">
 										<span>SHARE YOUR STORY</span>
 									</p>
 								</a>
 							</li>
 							<li>
-								<a href="#" class="donateMod">
-									<p class="icon">
-										<span class="picto donate">$</span>
-									</p>
+								<a href="#">
+									<p class="icon donate"></p>
 									<p class="txt">
 										<span>DONATE</span>
 									</p>
@@ -179,6 +168,7 @@ get_header(); ?>
 							</li>
 						</ul>
 					</div>
+					
 				</div>
 			</div>
 

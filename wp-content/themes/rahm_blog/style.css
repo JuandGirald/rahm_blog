@@ -8074,7 +8074,6 @@ nav {
 
 footer {
   margin: 0;
-  padding: 50px 0;
   max-width: 100%;
   background: #9f9f9f; }
   footer h5 {
@@ -8111,7 +8110,7 @@ footer {
     width: 100%;
     background: rgba(1, 149, 255, 0.7);
     position: absolute;
-    bottom: 0; }
+    bottom: -40px; }
   .contentContainer .postBlurb {
   	margin-bottom: 1.42857rem;
   }
@@ -8283,7 +8282,7 @@ nav .dropdown ul li {
 }
 nav .dropdown ul li a {
   display: block;
-  padding: 10px 0;
+  padding: 6px 0;
 }
 
 .contentContainer .rightRail ul {
@@ -8302,9 +8301,29 @@ nav .dropdown ul li a {
   vertical-align: middle;
 }
 .contentContainer .rightRail ul li p.icon {
-  width: 75px;
-  padding-right: 15px;
+  width: 70px;
+  height: 70px;
   text-align: center;
+  background-image: url('/assets/RahmIcons.jpg');
+	background-size: 420px auto;
+}
+.contentContainer .rightRail ul li p.icon.news {
+	background-position: 0px 0px;
+}
+.contentContainer .rightRail ul li p.icon.face {
+	background-position: -70px 0px;
+}
+.contentContainer .rightRail ul li p.icon.tweet {
+	background-position: -140px 0px;
+}
+.contentContainer .rightRail ul li p.icon.magnify {
+	background-position: -210px 0px;
+}
+.contentContainer .rightRail ul li p.icon.share {
+	background-position: -280px 0px;
+}
+.contentContainer .rightRail ul li p.icon.donate {
+	background-position: -350px 0px;
 }
 .contentContainer .rightRail ul li p.txt span {
   line-height: 1.2;
@@ -8313,26 +8332,29 @@ nav .dropdown ul li a {
   display: block;
   line-height: 1;
 }
-.contentContainer .rightRail ul li span.picto {
-  font-family: "picto", sans-serif;
-  font-size: 68px;
-}
-.contentContainer .rightRail ul li span.socialico {
-  font-family: "socialico", sans-serif;
-  font-size: 80px;
-  margin-bottom: -12px;
-}
 .contentContainer .rightRail ul li a {
   color: #9f9f9f;
 }
 .contentContainer .rightRail ul li a:hover {
   color: #0195ff;
 }
-.contentContainer .rightRail ul li a.beFirst {
-  color: #0195ff;
+.contentContainer .rightRail ul li a:hover p.icon.news {
+	background-position: 0px 70px;
 }
-.contentContainer .rightRail ul li a.donateMod {
-  color: #ff4a4a;
+.contentContainer .rightRail ul li a:hover p.icon.face {
+	background-position: -70px 70px;
+}
+.contentContainer .rightRail ul li a:hover p.icon.tweet {
+	background-position: -140px 70px;
+}
+.contentContainer .rightRail ul li a:hover p.icon.magnify {
+	background-position: -210px 70px;
+}
+.contentContainer .rightRail ul li a:hover p.icon.share {
+	background-position: -280px 70px;
+}
+.contentContainer .rightRail ul li a:hover p.icon.donate {
+	background-position: -350px 70px;
 }
 .contentContainer .rightRail.triple ul li {
   width: 33.33%;
@@ -8429,19 +8451,32 @@ nav .dropdown ul li a {
 
 footer .footerSignup {
   background: #004b81;
-  margin-left: -1.07143rem;
-  padding: 1.07143rem;
+  padding: 1.07143rem 0;
+  margin-bottom: 2em;
 }
 footer .footerSignup h5 {
   text-transform: uppercase;
+  margin-bottom: 0;
 }
 footer .footerSignup form {
   line-height: .4rem;
 }
+footer .footerSignup form .row {
+	font-size: 0px;
+	margin: 0 -15px;
+}
+footer .footerSignup form .row  > * {
+	font-size: 14px;
+}
+footer .footerSignup form .columns {
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+}
 footer .footerSignup form input[type="text"], footer .footerSignup form input[type="submit"], footer .footerSignup form button {
-  max-width: 160px;
+  width: 100%;
   display: block;
-  margin-bottom: 1rem;
+  margin: 0;
 }
 footer .footerSignup form button {
   padding-top: .7rem;
@@ -8453,6 +8488,23 @@ footer .footerSignup form button {
 footer .footerSignup form button:hover {
   background: #0195ff;
 }
+footer .footerSignup .errors {
+	position: relative;
+	text-align: center;
+	color: $red;
+	font-weight: bold;
+	opacity: 0;
+	visibility: hidden;
+	padding-top: 0.5em;
+	-webkit-transition: all 250ms;
+  	-moz-transition: all 250ms;
+  	transition: all 250ms;
+}
+footer .footerSignup .errors.show {
+	opacity: 1;
+	visibility: visible;
+}
+
 
 @media only screen and (max-width: 64em) {
   header form {
@@ -8617,17 +8669,49 @@ footer .footerSignup form button:hover {
     margin-bottom: 0;
   }
   .contentContainer.homepage .rightRail ul li p.icon {
-    width: 50px;
-    padding-right: 10px;
+    width: 40px;
+    height: 40px;
+    background-size: 240px;
   }
+	.contentContainer.homepage .rightRail ul li p.icon.news {
+		background-position: 0px 0px;
+	}
+	.contentContainer.homepage .rightRail ul li p.icon.face {
+		background-position: -40px 0px;
+	}
+	.contentContainer.homepage .rightRail ul li p.icon.tweet {
+		background-position: -80px 0px;
+	}
+	.contentContainer.homepage .rightRail ul li p.icon.magnify {
+		background-position: -120px 0px;
+	}
+	.contentContainer.homepage .rightRail ul li p.icon.share {
+		background-position: -160px 0px;
+	}
+	.contentContainer.homepage .rightRail ul li p.icon.donate {
+		background-position: -200px 0px;
+	}
+	a:hover p.icon.news {
+		background-position: 0px 40px;
+	}
+	a:hover p.icon.face {
+		background-position: -40px 40px;
+	}
+	a:hover p.icon.tweet {
+		background-position: -80px 40px;
+	}
+	a:hover p.icon.magnify {
+		background-position: -120px 40px;
+	}
+	a:hover p.icon.share {
+		background-position: -160px 40px;
+	}
+	a:hover p.icon.donate {
+		background-position: -200px 40px;
+	}
+
   .contentContainer.homepage .rightRail ul li span br {
     display: none;
-  }
-  .contentContainer.homepage .rightRail ul li span.picto {
-    font-size: 36px;
-  }
-  .contentContainer.homepage .rightRail ul li span.socialico {
-    font-size: 40px;
   }
   .contentContainer.homepage .rightRail ul li .seeProgress .txt span {
     font-size: 11px;
@@ -8666,7 +8750,7 @@ footer .footerSignup form button:hover {
     padding: 0 0 223px;
     background: #818181;
   }
-  footer > .row {
+  footer .lightMobile {
     padding: 20px 0 5px;
     background: #9f9f9f;
   }
@@ -8676,6 +8760,9 @@ footer .footerSignup form button:hover {
   }
   footer h5 {
     font-size: 13px;
+  }
+  footer ul li {
+  	margin-bottom: 1rem;
   }
   footer ul li a {
     font-size: 10px;
@@ -8693,10 +8780,16 @@ footer .footerSignup form button:hover {
     margin: 0 auto;
   }
   footer .footerSignup {
-    height: 223px;
-    position: absolute;
     width: 60%;
-    bottom: 0;
-    right: 0;
+    margin: 0;
+    padding: 1.07143rem;
+  }
+  footer .footerSignup h5 {
+  	margin-bottom: 0.5rem;
+  }
+  footer .footerSignup input {
+  	width: auto !important;
+	max-width: 160px;
+	margin-bottom: 1rem !important;
   }
 }

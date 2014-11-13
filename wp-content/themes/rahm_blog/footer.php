@@ -13,6 +13,33 @@
 	</div><!-- #main .wrapper -->
 
 	<footer id="colophon">
+		<div class="footerSignup hidemobile new">
+			<div class="row">
+				<div class="small-12 columns">
+						<%= form_tag subscribe_path %>
+							<div class="row">
+								<div class="small-3 columns">
+									<h5>Lorem Ipsum Something</h5>
+								</div>
+								<div class="small-3 columns">
+									<input data-type="email" type="text" placeholder="Email" name="signUpEmail"/>
+								</div>
+								<div class="small-3 columns">
+									<input data-type="zip" type="text" placeholder="Zip code" name="signUpZip"/>
+								</div>
+								<div class="small-3 columns">
+									<input type="submit" value="Sign up"/>
+								</div>
+										<div class="errors">
+											<span></span>
+										</div>
+								</div>
+							</div>
+						</form>
+				</div>
+			</div>
+		</div>
+		
 		<div class="row">
 			<div class="small-4 medium-3 columns logo">
 				<div>
