@@ -45,37 +45,8 @@
 
 <div id="page" class="hfeed">
 
-	<header id="masthead" role="banner">
-		<div class="row">
-			<div class="large-12 column">
-				<div class="row">
-					<div class="medium-6 large-4 column">
-						<h1 class="titleBar">
-							<a href="/">
-								<img alt="Rahm for Chicago" src="<?php bloginfo('template_directory'); ?>/assets/logo-title.png"/>
-							</a>
-						</h1>
-					</div>
-					<div class="medium-6 large-6 column">
-						<form>
-							<input type="text" placeholder="Email" name="signUpEmail" class="signUpEmail-header"/>
-							<input type="text" placeholder="Zip code" name="signUpZip" class="signUpZip-header"/>
-							<button>Sign up</button>
-						</form>
-						<div class="socialLinks">
-							<a class="headerSocial">
-								<span class="social">F</span>
-								<span>LIKE US</span>
-							</a>
-							<a class="headerSocial fb">
-								<span class="social">L</span>
-								<span>FOLLOW US</span>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header><!-- #masthead -->
+	<div class="headerIframe">
+		<iframe src="http://rahmforchicago.herokuapp.com/header" frameborder="0"></iframe> 
+	</div>
 
 	<div id="main" class="wrapper">
