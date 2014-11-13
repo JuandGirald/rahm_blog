@@ -16,7 +16,7 @@ get_header(); ?>
 				global $post;
 				$category = get_the_category($post->ID);
 
-				echo "<div class='heroContainer interior issues' style='background-image:url('https://s3.amazonaws.com/rahm-chicago-production/hero/".$category[0]->slug.".jpg')''><div class='row'><div class='small-12 columns'>";
+				echo '<div class="heroContainer interior issues" style="background-image:url(\'https://s3.amazonaws.com/rahm-chicago-production/hero/'.$category[0]->slug.'.jpg\')"><div class="row"><div class="small-12 columns">';
 
 				echo "<img src='" . get_bloginfo('template_directory') . "/assets/icon-" . $category[0]->slug . ".png' alt='" . $category[0]->cat_name . "' />";
 				echo "<h2>" . $category[0]->cat_name . "</h2>";
