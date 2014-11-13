@@ -25,7 +25,7 @@ get_header(); ?>
 					$category = get_category_by_slug($arr_current_url[1]);	
 				}
 
-				echo "<div class='heroContainer interior issues' style='background-image:url('https://s3.amazonaws.com/rahm-chicago-production/hero/.jpg')''><div class='row'><div class='small-12 columns'>";
+				echo "<div class='heroContainer interior issues' style='background-image:url('https://s3.amazonaws.com/rahm-chicago-production/hero/".$category->slug.".jpg')'><div class='row'><div class='small-12 columns'>";
 
 				echo "<img src='" . get_bloginfo('template_directory') . "/assets/icon-" . $category->slug . ".png' alt='" . $category->cat_name . "' />";
 				echo "<h2>" . $category->cat_name . "</h2>";
