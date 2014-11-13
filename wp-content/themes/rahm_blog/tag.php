@@ -27,6 +27,8 @@ get_header(); ?>
 								echo "<h2>" . $tag->name . "</h2>";
 								break;
 							}
+						} else {
+							echo "<h2>Tag does not exist</h2>";
 						}
 					?>
 				</div>

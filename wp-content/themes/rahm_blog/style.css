@@ -8799,6 +8799,7 @@ footer .footerSignup .errors.show {
 	max-width: 100%;
 	display: block;
 	overflow: hidden;
+	position: relative;
 	opacity: 0;
 	visibility: hidden;
 	-webkit-transition: all 250ms;
