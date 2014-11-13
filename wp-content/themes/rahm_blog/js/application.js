@@ -155,3 +155,19 @@ chi = (function() {
 	});
 
 })();
+
+window.addEventListener('message', function(e) {
+	var header = $("#headerIframe"),
+		footer = $("#footerIframe"),
+		eventName = e.data[0],
+		data = e.data[1];
+
+	switch(eventName) {
+		case 'headerHeight':
+			header.height(data).addClass('show');
+			break;
+		case 'footerHeight':
+			footer.height(data).addClass('show');
+			break;
+	}
+}, false);

@@ -8793,3 +8793,17 @@ footer .footerSignup .errors.show {
 	margin-bottom: 1rem !important;
   }
 }
+
+#headerIframe, #footerIframe {
+	width: 100%;
+	max-width: 100%;
+	display: block;
+	overflow: hidden;
+	opacity: 0;
+	visibility: hidden;
+	@include css-transition(all 250ms);
+	&.show {
+		opacity: 1;
+		visibility: visible;
+	}
+}
