@@ -8800,13 +8800,12 @@ footer .footerSignup .errors.show {
 	display: block;
 	overflow: hidden;
 	position: relative;
+	z-index: 99;
 	opacity: 0;
-	visibility: hidden;
 	-webkit-transition: all 250ms;
   	-moz-transition: all 250ms;
   	transition: all 250ms;
 }
 #headerIframe.show, #footerIframe.show {
 	opacity: 1;
-	visibility: visible;
 }
