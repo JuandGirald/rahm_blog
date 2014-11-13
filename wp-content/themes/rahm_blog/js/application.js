@@ -169,5 +169,8 @@ window.addEventListener('message', function(e) {
 		case 'footerHeight':
 			footer.height(data).addClass('show');
 			break;
+		case 'submitted':
+			window.location.href = "http://rahmforchicago.herokuapp.com/thank_you";
+			break;
 	}
 }, false);
