@@ -16,23 +16,23 @@ get_header(); ?>
 	<section id="primary">
 		<div id="content" role="main">
 
-			<div class="heroContainer interior issues" style="background-image:url('<?php bloginfo('template_directory'); ?>/assets/hero-issues.jpg')">
-				<div class="row">
-					<div class="small-12 columns">
-						<?php
-							$current_url = rtrim($_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"], "/");
-							$arr_current_url = split("/", $current_url);
-							if ($arr_current_url[1] == 'category') {
-								$category = get_category_by_slug($arr_current_url[2]);
-							} else {
-								$category = get_category_by_slug($arr_current_url[1]);	
-							}
-							echo "<img src='" . get_bloginfo('template_directory') . "/assets/icon-" . $category->slug . ".png' alt='" . $category->cat_name . "' />";
-							echo "<h2>" . $category->cat_name . "</h2>";
-						?>
-					</div>
-				</div>
-			</div>
+			<?php
+				$current_url = rtrim($_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"], "/");
+				$arr_current_url = split("/", $current_url);
+				if ($arr_current_url[1] == 'category') {
+					$category = get_category_by_slug($arr_current_url[2]);
+				} else {
+					$category = get_category_by_slug($arr_current_url[1]);	
+				}
+
+				echo "<div class='heroContainer interior issues' style='background-image:url('https://s3.amazonaws.com/rahm-chicago-production/hero/".$category->slug.".jpg')''><div class='row'><div class='small-12 columns'>";
+
+				echo "<img src='" . get_bloginfo('template_directory') . "/assets/icon-" . $category->slug . ".png' alt='" . $category->cat_name . "' />";
+				echo "<h2>" . $category->cat_name . "</h2>";
+				
+				echo "</div></div></div>";
+
+			?>
 
 			<nav class="mainNav">
 				<div class="central">

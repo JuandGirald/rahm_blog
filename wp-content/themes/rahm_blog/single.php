@@ -12,18 +12,17 @@ get_header(); ?>
 	<div id="primary">
 		<div id="content" role="main">
 
-			<div class="heroContainer interior issues" style="background-image:url('<?php bloginfo('template_directory'); ?>/assets/hero-issues.jpg')">
-				<div class="row">
-					<div class="small-12 columns">
-						<?php
-							global $post;
-							$category = get_the_category($post->ID);
-							echo "<img src='" . get_bloginfo('template_directory') . "/assets/icon-" . $category[0]->slug . ".png' alt='" . $category[0]->cat_name . "' />";
-							echo "<h2>" . $category[0]->cat_name . "</h2>";
-						?>
-					</div>
-				</div>
-			</div>
+			<?php
+				global $post;
+				$category = get_the_category($post->ID);
+
+				echo "<div class='heroContainer interior issues' style='background-image:url('https://s3.amazonaws.com/rahm-chicago-production/hero/".$category[0]->slug.".jpg')''><div class='row'><div class='small-12 columns'>";
+
+				echo "<img src='" . get_bloginfo('template_directory') . "/assets/icon-" . $category[0]->slug . ".png' alt='" . $category[0]->cat_name . "' />";
+				echo "<h2>" . $category[0]->cat_name . "</h2>";
+
+				echo "</div></div></div>";
+			?>
 
 			<nav class="mainNav">
 				<div class="central">
