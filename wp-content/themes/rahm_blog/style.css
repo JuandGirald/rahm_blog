@@ -8304,7 +8304,7 @@ nav .dropdown ul li a {
   width: 70px;
   height: 70px;
   text-align: center;
-  background-image: url('/assets/RahmIcons.jpg');
+  background-image: url('/wp-content/themes/rahm_blog/assets/RahmIcons.jpg');
 	background-size: 420px auto;
 }
 .contentContainer .rightRail ul li p.icon.news {
