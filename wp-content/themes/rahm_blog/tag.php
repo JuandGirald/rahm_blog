@@ -36,91 +36,91 @@ get_header(); ?>
 		</div>
 
 		<nav class="mainNav">
-			<div class="central">
-				<div class="row">
-					<div class="small-12 columns">
-						<ul class="mainList">
-							<li data-id="1">
-								<a>TAKE ACTION</a>
-							</li>
-							<li data-id="2">
-								<a>FACTS</a>
-							</li>
-							<li data-id="3">
-								<a>LATEST</a>
-							</li>
-						</ul>
+				<div class="central">
+					<div class="row">
+						<div class="small-12 columns">
+							<ul class="mainList">
+								<li data-id="1">
+									<a>TAKE ACTION</a>
+								</li>
+								<li data-id="2">
+									<a>FACTS</a>
+								</li>
+								<li data-id="3">
+									<a>LATEST</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<div class="dropdown">
-				<div class="row">
-					<div class="small-12 columns">
-						<ul data-target="1">
-							<li>
-								<a href="/stories/new">Share Your Story</a>
-							</li>
-							<li>
-								<a>See Programs In Your Neighborhood</a>
-							</li>
-							<li>
-								<a>Sign Up</a>
-							</li>
-							<li>
-								<a>Donate</a>
-							</li>
-						</ul>
-						<ul data-target="2">
-							<li>
-								<a href="/about">About</a>
-							</li>
-							<li>
-								<a href="http://rahm-press.herokuapp.com/arts-and-culture">Arts</a>
-							</li>
-							<li>
-								<a href="http://rahm-press.herokuapp.com/changing-the-culture-in-city-hall">Changing the Culture in City Hall</a>
-							</li>
-							<li>
-								<a href="http://rahm-press.herokuapp.com/economic-development">Economic Development</a>
-							</li>
-							<li>
-								<a href="http://rahm-press.herokuapp.com/education">Education</a>
-							</li>
-							<li>
-								<a href="http://rahm-press.herokuapp.com/energy-and-sustainability">Energy and Sustainability</a>
-							</li>
-							<li>
-								<a href="http://rahm-press.herokuapp.com/immigration">Immigration</a>
-							</li>
-							<li>
-								<a href="http://rahm-press.herokuapp.com/infrastructure">Infrastructure</a>
-							</li>
-							<li>
-								<a href="http://rahm-press.herokuapp.com/parks">Parks</a>
-							</li>
-							<li>
-								<a href="http://rahm-press.herokuapp.com/public-safety">Public Safety</a>
-							</li>
-						</ul>
-						<ul data-target="3">
-							<li>
-								<a>Campaign Updates</a>
-							</li>
-							<li>
-								<a>Twitter</a>
-							</li>
-							<li>
-								<a>Facebook</a>
-							</li>
-							<li>
-								<a>Youtube</a>
-							</li>
-						</ul>
+				<div class="dropdown">
+					<div class="row">
+						<div class="small-12 columns">
+							<ul data-target="1">
+								<li>
+									<a href="http://rahmforchicago.herokuapp.com/stories/new">Share Your Story</a>
+								</li>
+								<li>
+									<a href="http://rahmforchicago.herokuapp.com/progress">See Programs In Your Neighborhood</a>
+								</li>
+								<li>
+									<a>Sign Up</a>
+								</li>
+								<li>
+									<a>Donate</a>
+								</li>
+							</ul>
+							<ul data-target="2">
+								<li>
+									<a href="http://rahmforchicago.herokuapp.com/about">About</a>
+								</li>
+								<li>
+									<a href="http://rahm-press.herokuapp.com/arts-and-culture">Arts</a>
+								</li>
+								<li>
+									<a href="http://rahm-press.herokuapp.com/changing-the-culture-in-city-hall">Changing the Culture in City Hall</a>
+								</li>
+								<li>
+									<a href="http://rahm-press.herokuapp.com/economic-development">Economic Development</a>
+								</li>
+								<li>
+									<a href="http://rahm-press.herokuapp.com/education">Education</a>
+								</li>
+								<li>
+									<a href="http://rahm-press.herokuapp.com/energy-and-sustainability">Energy and Sustainability</a>
+								</li>
+								<li>
+									<a href="http://rahm-press.herokuapp.com/immigration">Immigration</a>
+								</li>
+								<li>
+									<a href="http://rahm-press.herokuapp.com/infrastructure">Infrastructure</a>
+								</li>
+								<li>
+									<a href="http://rahm-press.herokuapp.com/parks">Parks</a>
+								</li>
+								<li>
+									<a href="http://rahm-press.herokuapp.com/public-safety">Public Safety</a>
+								</li>
+							</ul>
+							<ul data-target="3">
+								<li>
+									<a href="http://rahm-press.herokuapp.com/campaign-updates">Campaign Updates</a>
+								</li>
+								<li>
+									<a>Twitter</a>
+								</li>
+								<li>
+									<a>Facebook</a>
+								</li>
+								<li>
+									<a>Youtube</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
-			</div>
-		</nav>
+			</nav>
 
 		<div class="contentContainer">
 			<div class="row">

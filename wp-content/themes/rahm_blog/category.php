@@ -58,10 +58,10 @@ get_header(); ?>
 						<div class="small-12 columns">
 							<ul data-target="1">
 								<li>
-									<a href="/stories/new">Share Your Story</a>
+									<a href="http://rahmforchicago.herokuapp.com/stories/new">Share Your Story</a>
 								</li>
 								<li>
-									<a>See Programs In Your Neighborhood</a>
+									<a href="http://rahmforchicago.herokuapp.com/progress">See Programs In Your Neighborhood</a>
 								</li>
 								<li>
 									<a>Sign Up</a>
@@ -72,7 +72,7 @@ get_header(); ?>
 							</ul>
 							<ul data-target="2">
 								<li>
-									<a href="/about">About</a>
+									<a href="http://rahmforchicago.herokuapp.com/about">About</a>
 								</li>
 								<li>
 									<a href="http://rahm-press.herokuapp.com/arts-and-culture">Arts</a>
@@ -104,7 +104,7 @@ get_header(); ?>
 							</ul>
 							<ul data-target="3">
 								<li>
-									<a>Campaign Updates</a>
+									<a href="http://rahm-press.herokuapp.com/campaign-updates">Campaign Updates</a>
 								</li>
 								<li>
 									<a>Twitter</a>
