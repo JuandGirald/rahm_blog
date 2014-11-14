@@ -22,6 +22,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name='viewport', content='width=device-width, initial-scale=1.0'>
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
+	<link href="<?php bloginfo('template_directory'); ?>/assets/favicon.ico" rel="shortcut icon" type="image/x-icon">
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	<?php // Loads HTML5 JavaScript file to add support for HTML5 elements in older IE versions. ?>

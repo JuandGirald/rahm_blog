@@ -58,7 +58,7 @@ get_header(); ?>
 						<div class="small-12 columns">
 							<ul data-target="1">
 								<li>
-									<a>Share Your Story</a>
+									<a href="/stories/new">Share Your Story</a>
 								</li>
 								<li>
 									<a>See Programs In Your Neighborhood</a>
@@ -72,27 +72,39 @@ get_header(); ?>
 							</ul>
 							<ul data-target="2">
 								<li>
-									<a>About</a>
+									<a href="/about">About</a>
 								</li>
 								<li>
-									<a>Contact</a>
+									<a href="http://rahm-press.herokuapp.com/arts-and-culture">Arts</a>
 								</li>
 								<li>
-									<a>Parks</a>
+									<a href="http://rahm-press.herokuapp.com/changing-the-culture-in-city-hall">Changing the Culture in City Hall</a>
 								</li>
 								<li>
-									<a>Infrastructure</a>
+									<a href="http://rahm-press.herokuapp.com/economic-development">Economic Development</a>
 								</li>
 								<li>
-									<a>Economic Development</a>
+									<a href="http://rahm-press.herokuapp.com/education">Education</a>
 								</li>
 								<li>
-									<a>Education</a>
+									<a href="http://rahm-press.herokuapp.com/energy-and-sustainability">Energy and Sustainability</a>
+								</li>
+								<li>
+									<a href="http://rahm-press.herokuapp.com/immigration">Immigration</a>
+								</li>
+								<li>
+									<a href="http://rahm-press.herokuapp.com/infrastructure">Infrastructure</a>
+								</li>
+								<li>
+									<a href="http://rahm-press.herokuapp.com/parks">Parks</a>
+								</li>
+								<li>
+									<a href="http://rahm-press.herokuapp.com/public-safety">Public Safety</a>
 								</li>
 							</ul>
 							<ul data-target="3">
 								<li>
-									<a>Blog</a>
+									<a>Campaign Updates</a>
 								</li>
 								<li>
 									<a>Twitter</a>
