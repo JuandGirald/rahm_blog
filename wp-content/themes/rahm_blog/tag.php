@@ -16,7 +16,7 @@ get_header(); ?>
 	<section id="primary">
 		<div id="content" role="main">
 
-		<div class="heroContainer interior issues" style="https://s3.amazonaws.com/rahm-chicago-production/hero/tags.jpg">
+		<div class="heroContainer interior issues" style="background-image:url('https://s3.amazonaws.com/rahm-chicago-production/hero/tags.jpg')">
 			<div class="row">
 				<div class="small-12 columns">
 					<?php
