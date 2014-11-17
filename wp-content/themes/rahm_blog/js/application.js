@@ -172,5 +172,8 @@ window.addEventListener('message', function(e) {
 		case 'submitted':
 			window.location.href = "http://rahmforchicago.herokuapp.com/thank_you";
 			break;
+		case 'redirect':
+			window.location.href = data;
+			break;
 	}
 }, false);
