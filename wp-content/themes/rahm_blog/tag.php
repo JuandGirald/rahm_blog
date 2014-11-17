@@ -65,7 +65,7 @@ get_header(); ?>
 									<a href="http://rahmforchicago.herokuapp.com/progress">See Programs In Your Neighborhood</a>
 								</li>
 								<li>
-									<a>Sign Up</a>
+									<a href="http://action.chicagotogether.org/page/s/">Sign Up</a>
 								</li>
 								<li>
 									<a>Donate</a>
@@ -152,7 +152,7 @@ get_header(); ?>
 				<div class="medium-4 columns right rightRail">
 					<ul>
 						<li>
-							<a href="#">
+							<a href="http://action.chicagotogether.org/page/s/">
 								<p class="icon news"></p>
 								<p class="txt">
 									<span>SIGN UP, BE THE <br/>FIRST TO KNOW</span>
