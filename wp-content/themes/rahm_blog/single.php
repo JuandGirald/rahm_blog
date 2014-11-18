@@ -68,7 +68,7 @@ get_header(); ?>
 									<a href="http://rahm-press.herokuapp.com/arts-and-culture">Arts</a>
 								</li>
 								<li>
-									<a href="http://rahm-press.herokuapp.com/changing-the-culture-in-city-hall">Changing the Culture in City Hall</a>
+									<a href="http://rahm-press.herokuapp.com/reforming-city-hall">Reforming City Hall</a>
 								</li>
 								<li>
 									<a href="http://rahm-press.herokuapp.com/economic-development">Economic Development</a>
