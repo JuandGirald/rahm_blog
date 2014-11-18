@@ -97,13 +97,13 @@ get_header(); ?>
 									<a href="http://rahm-press.herokuapp.com/campaign-updates">Campaign Updates</a>
 								</li>
 								<li>
-									<a>Twitter</a>
+									<a target="_blank" href="https://twitter.com/rahmemanuel">Twitter</a>
 								</li>
 								<li>
-									<a>Facebook</a>
+									<a target="_blank" href="https://www.facebook.com/rahmemanuel">Facebook</a>
 								</li>
 								<li>
-									<a>Youtube</a>
+									<a target="_blank" href="https://www.youtube.com/user/ChicagoforRahm">Youtube</a>
 								</li>
 							</ul>
 						</div>
@@ -138,7 +138,7 @@ get_header(); ?>
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="https://www.facebook.com/rahmemanuel" target="_blank">
 									<p class="icon face"></p>
 									<p class="txt">
 										<span>LIKE US</span>
@@ -146,7 +146,7 @@ get_header(); ?>
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="https://twitter.com/rahmemanuel" target="_blank">
 									<p class="icon tweet"></p>
 									<p class="txt">
 										<span>FOLLOW US</span>
@@ -154,7 +154,7 @@ get_header(); ?>
 								</a>
 							</li>
 							<li>
-								<a href="#" class="seeProgress">
+								<a href="http://rahmforchicago.herokuapp.com/progress" class="seeProgress">
 									<p class="icon magnify"></p>
 									<p class="txt">
 										<span>SEE PROGRESS IN <br/>YOUR NEIGHBORHOOD</span>
@@ -162,7 +162,7 @@ get_header(); ?>
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="http://rahmforchicago.herokuapp.com/stories/new">
 									<p class="icon share"></p>
 									<p class="txt">
 										<span>SHARE YOUR STORY</span>
