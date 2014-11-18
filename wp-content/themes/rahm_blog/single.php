@@ -57,7 +57,7 @@ get_header(); ?>
 									<a href="http://action.chicagotogether.org/page/s/">Sign Up</a>
 								</li>
 								<li>
-									<a>Donate</a>
+									<a href="https://services.myngp.com/ngponlineservices/contribution.aspx?X=cfDMWmlEmBSBK4sJZVu0iSDa2phOqx8U">Donate</a>
 								</li>
 							</ul>
 							<ul data-target="2">
