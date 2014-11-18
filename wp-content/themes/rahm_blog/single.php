@@ -65,36 +65,36 @@ get_header(); ?>
 									<a href="http://www.chicagotogether.org/about">About</a>
 								</li>
 								<li>
-									<a href="http://rahm-press.herokuapp.com/arts-and-culture">Arts</a>
+									<a href="http://www.chicagotogether.org/blog/arts-and-culture">Arts</a>
 								</li>
 								<li>
-									<a href="http://rahm-press.herokuapp.com/reforming-city-hall">Reforming City Hall</a>
+									<a href="http://www.chicagotogether.org/blog/reforming-city-hall">Reforming City Hall</a>
 								</li>
 								<li>
-									<a href="http://rahm-press.herokuapp.com/economic-development">Economic Development</a>
+									<a href="http://www.chicagotogether.org/blog/economic-development">Economic Development</a>
 								</li>
 								<li>
-									<a href="http://rahm-press.herokuapp.com/education">Education</a>
+									<a href="http://www.chicagotogether.org/blog/education">Education</a>
 								</li>
 								<li>
-									<a href="http://rahm-press.herokuapp.com/energy-and-sustainability">Energy and Sustainability</a>
+									<a href="http://www.chicagotogether.org/blog/energy-and-sustainability">Energy and Sustainability</a>
 								</li>
 								<li>
-									<a href="http://rahm-press.herokuapp.com/immigration">Immigration</a>
+									<a href="http://www.chicagotogether.org/blog/immigration">Immigration</a>
 								</li>
 								<li>
-									<a href="http://rahm-press.herokuapp.com/infrastructure">Infrastructure</a>
+									<a href="http://www.chicagotogether.org/blog/infrastructure">Infrastructure</a>
 								</li>
 								<li>
-									<a href="http://rahm-press.herokuapp.com/parks">Parks</a>
+									<a href="http://www.chicagotogether.org/blog/parks">Parks</a>
 								</li>
 								<li>
-									<a href="http://rahm-press.herokuapp.com/public-safety">Public Safety</a>
+									<a href="http://www.chicagotogether.org/blog/public-safety">Public Safety</a>
 								</li>
 							</ul>
 							<ul data-target="3">
 								<li>
-									<a href="http://rahm-press.herokuapp.com/campaign-updates">Campaign Updates</a>
+									<a href="http://www.chicagotogether.org/blog/campaign-updates">Campaign Updates</a>
 								</li>
 								<li>
 									<a target="_blank" href="https://twitter.com/rahmemanuel">Twitter</a>

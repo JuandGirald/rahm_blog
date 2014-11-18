@@ -16,7 +16,7 @@
 
 get_header(); ?>
 
-	<?php wp_redirect( 'http://www.chicagotogether.org/campaign-updates/', 301 ); exit; ?>
+	<?php wp_redirect( 'http://www.chicagotogether.org/blog/campaign-updates/', 301 ); exit; ?>
 
 	<div id="primary">
 		<div id="content" role="main">
