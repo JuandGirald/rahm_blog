@@ -59,10 +59,10 @@ get_header(); ?>
 						<div class="small-12 columns">
 							<ul data-target="1">
 								<li>
-									<a href="http://rahmforchicago.herokuapp.com/stories/new">Share Your Story</a>
+									<a href="http://www.chicagotogether.org/stories/new">Share Your Story</a>
 								</li>
 								<li>
-									<a href="http://rahmforchicago.herokuapp.com/progress">See Programs In Your Neighborhood</a>
+									<a href="http://www.chicagotogether.org/progress">See Programs In Your Neighborhood</a>
 								</li>
 								<li>
 									<a href="http://action.chicagotogether.org/page/s/">Sign Up</a>
@@ -73,7 +73,7 @@ get_header(); ?>
 							</ul>
 							<ul data-target="2">
 								<li>
-									<a href="http://rahmforchicago.herokuapp.com/about">About</a>
+									<a href="http://www.chicagotogether.org//about">About</a>
 								</li>
 								<li>
 									<a href="http://rahm-press.herokuapp.com/arts-and-culture">Arts</a>
@@ -176,7 +176,7 @@ get_header(); ?>
 								</a>
 							</li>
 							<li>
-								<a href="http://rahmforchicago.herokuapp.com/progress" class="seeProgress">
+								<a href="http://www.chicagotogether.org//progress" class="seeProgress">
 									<p class="icon magnify"></p>
 									<p class="txt">
 										<span>SEE PROGRESS IN <br/>YOUR NEIGHBORHOOD</span>
@@ -184,7 +184,7 @@ get_header(); ?>
 								</a>
 							</li>
 							<li>
-								<a href="http://rahmforchicago.herokuapp.com/stories/new">
+								<a href="http://www.chicagotogether.org//stories/new">
 									<p class="icon share"></p>
 									<p class="txt">
 										<span>SHARE YOUR STORY</span>
