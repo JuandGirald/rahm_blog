@@ -12,7 +12,7 @@
 ?>
 	</div><!-- #main .wrapper -->
 
-	<iframe id="footerIframe" src="http://rahmforchicago.herokuapp.com/footer" frameborder="0"></iframe> 
+	<iframe id="footerIframe" src="http://www.chicagotogether.org/footer" frameborder="0"></iframe> 
 
 </div><!-- #page -->
 
