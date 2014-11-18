@@ -192,7 +192,7 @@ get_header(); ?>
 								</a>
 							</li>
 						<li>
-							<a href="#">
+							<a href="https://services.myngp.com/ngponlineservices/contribution.aspx?X=cfDMWmlEmBSBK4sJZVu0iSDa2phOqx8U">
 								<p class="icon donate"></p>
 								<p class="txt">
 									<span>DONATE</span>
