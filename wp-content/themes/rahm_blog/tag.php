@@ -79,9 +79,6 @@ get_header(); ?>
 									<a href="http://www.chicagotogether.org/blog/arts-and-culture">Arts</a>
 								</li>
 								<li>
-									<a href="http://www.chicagotogether.org/blog/reforming-city-hall">Reforming City Hall</a>
-								</li>
-								<li>
 									<a href="http://www.chicagotogether.org/blog/economic-development">Economic Development</a>
 								</li>
 								<li>
@@ -101,6 +98,9 @@ get_header(); ?>
 								</li>
 								<li>
 									<a href="http://www.chicagotogether.org/blog/public-safety">Public Safety</a>
+								</li>
+								<li>
+									<a href="http://www.chicagotogether.org/blog/reforming-city-hall">Reforming City Hall</a>
 								</li>
 							</ul>
 							<ul data-target="3">
