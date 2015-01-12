@@ -68,7 +68,7 @@ get_header(); ?>
 									<a href="http://action.chicagotogether.org/page/s/">Sign Up</a>
 								</li>
 								<li>
-									<a href="https://services.myngp.com/ngponlineservices/contribution.aspx?X=cfDMWmlEmBSBK4sJZVu0iSDa2phOqx8U">Donate</a>
+									<a href="https://services.myngp.com/ngponlineservices/contribution.aspx?X=cfDMWmlEmBSBK4sJZVu0iSDa2phOqx8U">Contribute</a>
 								</li>
 							</ul>
 							<ul data-target="2">
@@ -195,7 +195,7 @@ get_header(); ?>
 							<a href="https://services.myngp.com/ngponlineservices/contribution.aspx?X=cfDMWmlEmBSBK4sJZVu0iSDa2phOqx8U">
 								<p class="icon donate"></p>
 								<p class="txt">
-									<span>DONATE</span>
+									<span>Contribute</span>
 								</p>
 							</a>
 						</li>

@@ -8327,6 +8327,7 @@ nav .dropdown ul li a {
 }
 .contentContainer .rightRail ul li p.txt span {
   line-height: 1.2;
+  text-transform: uppercase;
 }
 .contentContainer .rightRail ul li span {
   display: block;
