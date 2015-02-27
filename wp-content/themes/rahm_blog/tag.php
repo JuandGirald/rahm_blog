@@ -17,6 +17,7 @@ get_header(); ?>
 		<div id="content" role="main">
 
 		<div class="heroContainer interior issues" style="background-image:url('https://s3.amazonaws.com/rahm-chicago-production/hero/tags.jpg')">
+			<div class="gradient"></div>
 			<div class="row">
 				<div class="small-12 columns">
 					<?php
