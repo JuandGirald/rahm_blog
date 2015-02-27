@@ -12,30 +12,26 @@ get_header(); ?>
 	<div id="primary">
 		<div id="content" role="main">
 
-			<?php
-				global $post;
-				$category = get_the_category($post->ID);
-
-				echo '<div class="heroContainer interior issues" style="background-image:url(\'https://s3.amazonaws.com/rahm-chicago-production/hero/'.$category[0]->slug.'.jpg\')"><div class="gradient"></div><div class="row"><div class="small-12 columns">';
-				echo "<img src='" . get_bloginfo('template_directory') . "/assets/icon-" . $category[0]->slug . ".png' alt='" . $category[0]->cat_name . "' />";
-				echo "<h2>" . $category[0]->cat_name . "</h2>";
-
-				echo "</div></div></div>";
-			?>
-
 			<nav class="mainNav">
 				<div class="central">
 					<div class="row">
 						<div class="small-12 columns">
 							<ul class="mainList">
 								<li data-id="1">
-									<a>TAKE ACTION</a>
+									<a>GET INVOLVED</a>
 								</li>
 								<li data-id="2">
-									<a>FACTS</a>
+									<a>Issues</a>
 								</li>
 								<li data-id="3">
-									<a>LATEST</a>
+									<a>blog</a>
+								</li>
+								<br>
+								<li data-id="4">
+									<a>ENDORSEMENTS</a>
+								</li>
+								<li data-id="5">
+									<a>WATCH OUR ADS</a>
 								</li>
 							</ul>
 						</div>
@@ -47,21 +43,24 @@ get_header(); ?>
 						<div class="small-12 columns">
 							<ul data-target="1">
 								<li>
-									<a href="http://www.chicagotogether.org/stories/new">Share Your Story</a>
+									<a href="http://action.chicagotogether.org/page/s/stay-up-to-date">Stand with Rahm</a>
 								</li>
 								<li>
-									<a href="http://www.chicagotogether.org/progress">See Programs In Your Neighborhood</a>
+									<a href="http://action.chicagotogether.org/page/s/commit-to-vote">Commit to Vote</a>
 								</li>
 								<li>
-									<a href="http://action.chicagotogether.org/page/s/">Sign Up</a>
+									<a href="http://action.chicagotogether.org/page/s/volunteer-signup">Volunteer</a>
 								</li>
 								<li>
-									<a href="https://services.myngp.com/ngponlineservices/contribution.aspx?X=cfDMWmlEmBSBK4sJZVu0iSDa2phOqx8U">Contribute</a>
+									<a href="https://services.myngp.com/ngponlineservices/contribution.aspx?X=cfDMWmlEmBSBK4sJZVu0iSDa2phOqx8U">Donate</a>
+								</li>
+								<li>
+									<a href="/stories/new">Share Your Story</a>
 								</li>
 							</ul>
 							<ul data-target="2">
 								<li>
-									<a href="http://www.chicagotogether.org/about">About</a>
+									<a href="/about">About</a>
 								</li>
 								<li>
 									<a href="http://www.chicagotogether.org/blog/arts-and-culture/">Arts</a>
@@ -95,20 +94,50 @@ get_header(); ?>
 								<li>
 									<a href="http://www.chicagotogether.org/blog/campaign-updates/">Campaign Updates</a>
 								</li>
+							</ul>
+
+							<ul data-target="4">
 								<li>
-									<a target="_blank" href="https://twitter.com/rahmemanuel">Twitter</a>
+									<a href="http://www.chicagotogether.org/blog/endorsements/chicago-tribune-endorsement-for-mayor-rahm-emanuel/">Chicago Tribune</a>
 								</li>
 								<li>
-									<a target="_blank" href="https://www.facebook.com/rahmemanuel">Facebook</a>
+									<a href="http://www.chicagotogether.org/blog/endorsements/chicago-sun-times-rahm-emanuel-has-earned-your-vote/">Sun Times</a>
 								</li>
 								<li>
-									<a target="_blank" href="https://www.youtube.com/user/ChicagoforRahm">Youtube</a>
+									<a href="http://www.chicagotogether.org/blog/endorsements/crains-chicago-business-chicagos-on-the-right-track-under-emanuel/">Crain's</a>
+								</li>
+								<li>
+									<a href="http://www.chicagotogether.org/blog/endorsements/the-chicago-citizen-mayor-rahm-emanuel-the-best-choice-for-chicago/">The Chicago Citizen</a>
+								</li>
+								<li>
+									<a href="http://www.chicagotogether.org/blog/endorsements/chicago-defender-the-chicago-defender-endorses-rahm-emanuel-for-mayor/">The Chicago Defender</a>
 								</li>
 							</ul>
+
+							<ul data-target="5">
+								<li>
+									<a href="http://www.chicagotogether.org/blog/ads/ads-3/">Watch Our Ads</a>
+								</li>
+								<li>
+									<a href="http://www.chicagotogether.org/blog/ads/ads-en-espanol/">En Español</a>
+								</li>
+							</ul>
+
 						</div>
 					</div>
 				</div>
 			</nav>
+
+			<?php
+				global $post;
+				$category = get_the_category($post->ID);
+
+				echo '<div class="heroContainer interior issues" style="background-image:url(\'https://s3.amazonaws.com/rahm-chicago-production/hero/'.$category[0]->slug.'.jpg\')"><div class="gradient"></div><div class="row"><div class="small-12 columns">';
+				echo "<img src='" . get_bloginfo('template_directory') . "/assets/icon-" . $category[0]->slug . ".png' alt='" . $category[0]->cat_name . "' />";
+				echo "<h2>" . $category[0]->cat_name . "</h2>";
+
+				echo "</div></div></div>";
+			?>
 
 			<div class="contentContainer">
 				<div class="row">
