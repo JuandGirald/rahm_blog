@@ -7964,14 +7964,21 @@ nav {
   nav .row ul li {
       font: normal 700 29px/30px "brandon-grotesque", san-serif;
       display: inline-block;
-      padding: 20px 10% 20px 0;      
+      padding: 20px 20px 20px 0;      
       position: relative; }
+   nav .row ul li:last-child {
+  	padding-right: 0;
+  }
+  nav .central br {
+  	display: none;
+  }
   nav .central li {    
       border-bottom: 5px solid #4380b9;
       margin-bottom: -5px;
   }
   nav .row ul li a {
-        color: #FFFFFF; }
+        color: #FFFFFF; 
+        text-transform: uppercase;}
 
 .heroContainer {
   width: 100%;
@@ -8078,6 +8085,7 @@ footer {
   background: #9f9f9f; }
   footer h5 {
     color: #FFFFFF;
+    text-transform: uppercase;
     font: normal 700 20px/24px "brandon-grotesque", san-serif;
     margin-top: 0; }
   footer ul li {
@@ -8243,7 +8251,7 @@ footer {
 }
 
 nav {
-  z-index: 5;
+  z-index: 20;
 }
 nav .central {
   background: #0195ff;
@@ -8522,12 +8530,11 @@ footer .footerSignup .errors.show {
   }
 
   nav .central ul li {
-    margin: 0 2rem -5px 0;
-    padding: 20px 0;
-    text-align: center;
+    padding: 20px 10px 20px 0;
+    font-style: 22px;
   }
-  nav .central ul li a {
-    display: block;
+  nav .dropdown ul li {
+  	font-size: 22px;
   }
 }
 @media only screen and (max-width: 47.938em) {
@@ -8631,10 +8638,18 @@ footer .footerSignup .errors.show {
     margin: 0 auto;
     text-align: center;
   }
+  nav .central ul br {
+  	display: block;
+  }
   nav .central ul li {
     font-size: 18px;
-    margin: 0 10px -5px;
+    padding: 10px 0;
+	margin: 0 5px;
+	border: none;
   }
+   nav .central ul li:nth-child(2) {
+   	margin: 0 20px;
+   }
   nav .dropdown ul {
     left: 0 !important;
     width: 100%;
@@ -8808,6 +8823,17 @@ footer .footerSignup .errors.show {
 	margin-bottom: 1rem !important;
   }
 }
+
+@media only screen and (max-width: 29.375em) { /*470px*/
+
+	footer .lightMobile > .columns {
+			width: 100%;
+			max-width: 300px;
+			margin: 0 auto;
+			float: none !important;
+			text-align: center;
+	}
+ }
 
 #headerIframe, #footerIframe {
 	width: 100%;
