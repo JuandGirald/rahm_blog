@@ -31,7 +31,7 @@ get_header(); ?>
 									<a>ENDORSEMENTS</a>
 								</li>
 								<li data-id="5">
-									<a>WATCH OUR ADS</a>
+									<a>OUR ADS</a>
 								</li>
 							</ul>
 						</div>
@@ -104,7 +104,7 @@ get_header(); ?>
 									<a href="http://www.chicagotogether.org/blog/endorsements/chicago-sun-times-rahm-emanuel-has-earned-your-vote/">Sun Times</a>
 								</li>
 								<li>
-									<a href="http://www.chicagotogether.org/blog/endorsements/crains-chicago-business-chicagos-on-the-right-track-under-emanuel/">Crain's</a>
+									<a href="http://www.chicagotogether.org/blog/endorsements/crains-chicago-business-chicagos-on-the-right-track-under-emanuel/">CRAIN’S CHICAGO BUSINESS</a>
 								</li>
 								<li>
 									<a href="http://www.chicagotogether.org/blog/endorsements/the-chicago-citizen-mayor-rahm-emanuel-the-best-choice-for-chicago/">The Chicago Citizen</a>
@@ -116,7 +116,7 @@ get_header(); ?>
 
 							<ul data-target="5">
 								<li>
-									<a href="http://www.chicagotogether.org/blog/ads/ads-3/">Watch Our Ads</a>
+									<a href="http://www.chicagotogether.org/blog/ads/ads-3/">Watch</a>
 								</li>
 								<li>
 									<a href="http://www.chicagotogether.org/blog/ads/ads-en-espanol/">En Español</a>
