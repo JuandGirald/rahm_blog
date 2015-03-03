@@ -56,7 +56,7 @@ get_header(); ?>
 								<a href="http://action.chicagotogether.org/page/s/volunteer-signup">Volunteer</a>
 							</li>
 							<li>
-								<a href="https://services.myngp.com/ngponlineservices/contribution.aspx?X=cfDMWmlEmBSBK4sJZVu0iSDa2phOqx8U">Donate</a>
+								<a href="https://services.myngp.com/ngponlineservices/contribution.aspx?X=cfDMWmlEmBSBK4sJZVu0iSDa2phOqx8U">Contribute</a>
 							</li>
 							<li>
 								<a href="/stories/new">Share Your Story</a>
